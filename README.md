@@ -1,6 +1,7 @@
-namp - ncurses audio media player
-=================================
-namp is a console MP3 player for Linux. 
+namp-lite - ncurses audio media player (light version)
+======================================================
+namp-lite is a console-based MP3 player for Linux. It is a light version of
+[namp](https://github.com/d99kris/namp) with no dependency on Qt.
 
 ![namp screenshot](/doc/namp-screenshot.png)
 
