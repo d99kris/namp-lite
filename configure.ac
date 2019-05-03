@@ -1,6 +1,6 @@
 # Init
 AC_INIT([namp], [1.0], [kristofer.berggren@gmail.com], [], 
-        [https://github.com/d99kris/namp])
+        [https://github.com/d99kris/namp-lite])
 AM_INIT_AUTOMAKE([
   -Wall -Werror foreign
 ])

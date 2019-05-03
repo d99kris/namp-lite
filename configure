@@ -593,7 +593,7 @@ PACKAGE_TARNAME='namp'
 PACKAGE_VERSION='1.0'
 PACKAGE_STRING='namp 1.0'
 PACKAGE_BUGREPORT='kristofer.berggren@gmail.com'
-PACKAGE_URL='https://github.com/d99kris/namp'
+PACKAGE_URL='https://github.com/d99kris/namp-lite'
 
 # Factoring default headers for most tests.
 ac_includes_default="\
@@ -1442,7 +1442,7 @@ Use these variables to override the choices made by `configure' or to help
 it to find libraries and programs with nonstandard names/locations.
 
 Report bugs to <kristofer.berggren@gmail.com>.
-namp home page: <https://github.com/d99kris/namp>.
+namp home page: <https://github.com/d99kris/namp-lite>.
 _ACEOF
 ac_status=$?
 fi
@@ -13787,7 +13787,7 @@ Configuration commands:
 $config_commands
 
 Report bugs to <kristofer.berggren@gmail.com>.
-namp home page: <https://github.com/d99kris/namp>."
+namp home page: <https://github.com/d99kris/namp-lite>."
 
 _ACEOF
 cat >>$CONFIG_STATUS <<_ACEOF || ac_write_fail=1
