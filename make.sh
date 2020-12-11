@@ -90,7 +90,7 @@ if [[ "${BUILD}" == "1" ]]; then
   elif [ "${OS}" == "Darwin" ]; then
     MAKEARGS="-j$(sysctl -n hw.ncpu)"
   fi
-  ./configure && make ${MAKEARGS} || exiterr "build failed, exiting."
+  autoreconf -f -i && ./configure && make ${MAKEARGS} || exiterr "build failed, exiting."
 fi
 
 # tests
