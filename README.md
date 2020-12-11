@@ -3,7 +3,7 @@ namp-lite - ncurses audio media player (lite version)
 
 | **Linux** |
 |-----------|
-| [![Build status](https://travis-ci.com/d99kris/namp-lite.svg?branch=master)](https://travis-ci.com/d99kris/namp-lite) |
+| [![Linux](https://github.com/d99kris/namp-lite/workflows/Linux/badge.svg)](https://github.com/d99kris/namp-lite/actions?query=workflow%3ALinux) |
 
 namp-lite is a console-based MP3 player for Linux. It is the lite version of
 [namp](https://github.com/d99kris/namp) with no dependency on Qt.
