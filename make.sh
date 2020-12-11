@@ -107,9 +107,9 @@ fi
 if [[ "${INSTALL}" == "1" ]]; then
   OS="$(uname)"
   if [ "${OS}" == "Linux" ]; then
-    cd build && sudo make install && cd .. || exiterr "install failed (linux), exiting."
+    sudo make install && cd .. || exiterr "install failed (linux), exiting."
   elif [ "${OS}" == "Darwin" ]; then
-    cd build && make install && cd .. || exiterr "install failed (mac), exiting."
+    make install && cd .. || exiterr "install failed (mac), exiting."
   else
     exiterr "install failed (unsupported os ${OS}), exiting."
   fi
