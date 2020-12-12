@@ -23,10 +23,8 @@ Supported Platforms
 namp should work on most Linux systems where its dependencies are met;
 libmpg123, libao, libasound, libcurl, libcrypto, libtag, libncursesw, libglib2 and help2man.
 
-It has been tested on:
-- Debian 8.2
-- openSUSE 13.2
-- Ubuntu 14.04
+Current version has been tested on:
+- Ubuntu 20.04 LTS
 
 Dependencies
 ============
