@@ -32,7 +32,7 @@ Dependencies
 Ubuntu / Debian
 ---------------
 
-    sudo apt-get install build-essential libglib2.0-dev libncursesw5-dev libmpg123-dev libao-dev libasound2-dev libtagc0-dev libcurl4-openssl-dev libssl-dev help2man
+    sudo apt install build-essential libtool autoconf automake libglib2.0-dev libncursesw5-dev libmpg123-dev libao-dev libasound2-dev libtagc0-dev libcurl4-openssl-dev libssl-dev help2man
 
 openSUSE
 --------
@@ -44,7 +44,7 @@ Installation
 ============
 Configure and build:
 
-    ./configure && make
+    autoreconf -f -i && ./configure && make -s
 
 Optionally install:
 

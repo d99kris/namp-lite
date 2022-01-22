@@ -70,7 +70,7 @@ if [[ "${DEPS}" == "1" ]]; then
   if [ "${OS}" == "Linux" ]; then
     DISTRO="$(lsb_release -i | awk -F':\t' '{print $2}')"
     if [[ "${DISTRO}" == "Ubuntu" ]]; then
-      sudo apt update && sudo apt -y install build-essential libtool autoconf libglib2.0-dev libncursesw5-dev libmpg123-dev libao-dev libasound2-dev libtagc0-dev libcurl4-openssl-dev libssl-dev help2man || exiterr "deps failed (linux), exiting."
+      sudo apt update && sudo apt -y install build-essential libtool autoconf automake libglib2.0-dev libncursesw5-dev libmpg123-dev libao-dev libasound2-dev libtagc0-dev libcurl4-openssl-dev libssl-dev help2man || exiterr "deps failed (linux), exiting."
     else
       exiterr "deps failed (unsupported linux distro ${DISTRO}), exiting."
     fi
