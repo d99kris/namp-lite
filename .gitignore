@@ -1,0 +1,9 @@
+src/*.o
+Makefile
+autom4te.cache
+config.log
+config.status
+libtool
+src/.deps
+src/Makefile
+src/namp
